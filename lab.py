@@ -8,7 +8,7 @@ DELAY = 100  # delay in ms to visualize steps
 class SudokuGUI: 
     def __init__(self, root):   # fixed constructor 
         self.root = root 
-        self.root.title("Sudoku Solver with Backtracking Visualization") 
+        self.root.title("Sudoku Solver - Version 2")
         self.entries = [[None for _ in range(N)] for _ in range(N)] 
  
         # Create Sudoku Grid 
